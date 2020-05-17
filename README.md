@@ -4,7 +4,7 @@ a python script to detect new pdf image under a folder and automatically crop it
 
 
 code:
-
+``` python
 import os,time
 import glob
 print('demon started')
@@ -25,3 +25,4 @@ while 1:
         file_list_start = file_list
 
     time.sleep(4)
+``` 
